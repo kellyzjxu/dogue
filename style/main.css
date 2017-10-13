@@ -1,0 +1,80 @@
+body {
+  background-color: white;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+.dogue {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+#menu {
+  display: block;
+  width: 104%;
+  height:1.5rem;
+  background-color: black;
+  margin-top: .5rem;
+  position: relative;
+  left: -2%;
+  /*I wanted to make the menu bar go all the way across,
+  So I added "position" and "left"*/
+}
+
+.submenu {
+  display: block;
+  width: 104%;
+  position: relative;
+  left: -2%;
+}
+
+.menu-text {
+  display: inline;
+  text-decoration: none;
+  float: left;
+  margin-top: 0.25rem;
+  position: absolute;
+  /*I wanted the text to be centered on the menu strip,
+  So I added "float" and "margin-top" and "position"*/
+}
+
+.cover {
+  display: block;
+  width: 104%;
+  position: relative;
+  left: -2%;
+}
+
+.royals {
+  display: block;
+  border: .5rem solid black;
+  padding: 1rem;
+  width: 85%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.royals:hover {
+  width: 88%;
+}
+
+.doggos {
+  display: block;
+  border: .5rem solid black;
+  padding: 1rem;
+  width: 85%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.title {
+  display: block;
+  margin: auto;
+  width: 37%;
+  margin-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-top: .5rem solid black;
+  border-bottom: .5rem solid black;
+}
